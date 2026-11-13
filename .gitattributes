@@ -1,0 +1,8 @@
+# Preserve the exact bytes checked by the ZKP artifact manifest.
+/auth_session.circom -text
+/build/session/** -text
+*.py text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+Dockerfile text eol=lf
+render.yaml text eol=lf

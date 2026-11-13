@@ -1,0 +1,35 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "setup:zk": "node setup-zk.cjs",
+    "test": ".venv\\Scripts\\python.exe -m pytest tests -v",
+    "build:cloud": "node scripts/build-cloud.cjs",
+    "test:wallet": "node --test tests/browser-wallet.test.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "circom2": "^0.2.23",
+    "circomlib": "^2.0.5",
+    "circomlibjs": "^0.1.7",
+    "poseidon-lite": "^0.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "snarkjs": "^0.7.6"
+  },
+  "devDependencies": {
+    "prettier": "^3.10.1",
+    "vite": "^8.3.8"
+  },
+  "overrides": {
+    "underscore": "^1.13.8",
+    "ws": "^8.22.2"
+  }
+}

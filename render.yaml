@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: veil-verifier
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: ZKP_CLOUD
+        value: "1"
+      - key: ZKP_ADMIN_TOKEN
+        generateValue: true
+      - key: ZKP_DATA_KEY
+        generateValue: true

@@ -1,0 +1,8 @@
+{
+  "circuit": "80e1e91740e713bb71dadefed548beedee29e16df740651be664989f412f7fa9",
+  "files": {
+    "auth_session_js/auth_session.wasm": "5c135e5841c33beb76213298b7de2d367bd0c28ef2dec401b4581dba895fc54d",
+    "final.zkey": "c0bdb5febb99a4c4c993a9aa04090defb0acffabbe509f6bffac5d6eabfda859",
+    "verification_key.json": "fdb7fe5ae7bf68aabd5fe17d8686ac4b90dfff7af96d7d6901e718a2a628b55a"
+  }
+}
